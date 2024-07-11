@@ -1,0 +1,33 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+img{
+    width: 100%;
+    max-height: 450px;
+}
+
+.main-content .title{
+    max-width: 650px;
+}
+
+.sub-content .item {
+    cursor: pointer;
+}
+
+.sub-content .item img{
+    transition: .3s;
+}
+
+.sub-content .item:hover img{
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+
+.sub-content .title {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

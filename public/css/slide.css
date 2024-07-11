@@ -1,0 +1,9 @@
+img {
+    max-height: 580px;
+}
+
+@media (max-width: 500px) {
+    img {
+        max-height: 156px;
+    }
+}

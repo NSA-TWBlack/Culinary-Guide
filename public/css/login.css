@@ -1,0 +1,47 @@
+.flogin {
+    padding-top: 60px;
+    padding-bottom: 170px;
+    background-image: linear-gradient(to right bottom, rgba(15, 15, 97, 0.678), rgba(18, 75, 7, 0.678)), url(https://wallpaperaccess.com/full/1324855.jpg);
+    background-size: cover;
+}
+
+.title {
+    padding-bottom: 50px;
+}
+
+#main-form {
+    max-width: 950px;
+}
+
+.right-form {
+    background: #f75959ba;
+}
+
+.left-form {
+    background: #ffffffdc;
+}
+
+.left-form button {
+    background: #f75959;
+    border: 2px solid white;
+    color: white;
+    transition: .3s;
+}
+
+.right-form a {
+    border: 2px solid white;
+    color: white;
+    transition: .3s;
+}
+
+.left-form button:hover {
+    background: white;
+    border: 2px solid #f75959;
+    color: #f75959;
+}
+
+.right-form a:hover {
+    background: white;
+    border: 2px solid #f75959;
+    color: #f75959;
+}

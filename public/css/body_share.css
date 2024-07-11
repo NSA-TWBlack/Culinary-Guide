@@ -1,0 +1,26 @@
+.bg-main {
+    font-family: "Roboto Mono", monospace;
+}
+
+.bg-main label {
+    font-family: 'Itim', cursive; 
+    font-size: 16px;
+}
+
+.bg-main .button {
+    background: #007d71;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #007d71;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.bg-main .button:hover {
+    background: #00000000;
+    color: #007d71;
+}
+
+.bg-main .btn-submit {
+    width: 200px;
+}

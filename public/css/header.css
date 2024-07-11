@@ -1,0 +1,21 @@
+#header {
+    z-index: 100;
+    font-family: 'Itim', cursive;
+}
+
+.navbar .nav-link {
+    position: relative;
+}
+
+.nav-link {
+    font-size: 17px;
+    color: rgb(191, 182, 182);
+    font-family: 'Itim', cursive;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: rgb(172, 251, 14);
+    transition: all .5s;
+    transform: scale(1.3);
+}

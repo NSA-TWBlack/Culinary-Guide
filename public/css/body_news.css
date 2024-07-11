@@ -1,0 +1,50 @@
+.news .item img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.news .headline {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.news .headline-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.news .headline:hover {
+    text-decoration: underline;
+}
+
+.news .text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 500px) {
+    .news .text{
+        display: none;
+    }
+
+    .news .headline {
+        font-size: 18px;
+    }
+
+    .news-popular {
+        padding-top: 25px;
+    }
+}

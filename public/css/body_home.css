@@ -1,0 +1,43 @@
+.welcome {
+  height: auto;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  color: black;
+}
+
+@media (max-width: 770px) {
+  .welcome {
+    display: none;
+  }
+}
+
+.headline {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.headline:hover {
+  text-decoration: underline;
+}
+
+
+.recipe {
+  height: initial;
+}
+
+.title a {
+  text-decoration: none;
+  color: black;
+}
+
+.title a:hover {
+  color: brown;
+}

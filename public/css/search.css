@@ -1,0 +1,34 @@
+.searchBox{
+    max-width: 720px;
+    
+}
+
+.searchBox .title{
+    font-family: 'Roboto Slab', serif;
+    color: #E35865;
+}
+
+.searchBox .form{
+    border: 3px solid #E35865;
+}
+
+.searchBox input{
+    color: rgb(188, 159, 159);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background-color: #39404A;
+}
+
+.searchBox .icon{
+    color: #E35865;
+    border-left: 3px solid #E35865;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.searchBox .icon:hover i{
+    font-size: 25px;
+    transition: .3s;
+}
+
